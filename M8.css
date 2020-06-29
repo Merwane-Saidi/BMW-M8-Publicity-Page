@@ -1,0 +1,127 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.hero{
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0, 0, 0,0.9)),
+  url(bmw2.jpg);
+  background-position: center;
+  background-size: cover;
+  overflow-x: hidden;
+  position:relative;
+}
+.nav-bar{
+
+  display: flex;
+  padding: 10px 10px;
+}
+.nav-logo img{
+  width: 135px;
+  margin-left: 11.5px;
+
+
+}
+.nav-links{
+flex: 1;
+}
+.nav-links ul{
+  margin-left: 50px;
+  display: inline;
+
+}
+.nav-links ul li{
+  list-style: none;
+  margin-top: 21.5px;
+  display: inline-block;
+  padding: 8px 20px;
+  border : 1px solid black;
+  border-left: 20px;
+  border-right: 20px;
+  border-radius: 30%;
+}
+.nav-links ul a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+.nav-links ul li::after{
+  content: close-quote;
+  width: 0;
+  height: 2px;
+  background-color: grey;
+  display: block;
+  margin: auto;
+  transition: .5s;
+
+}
+.nav-links ul li:hover::after{
+  width:90%
+}
+.btn{
+  padding: 10px 20px;
+  margin: 24 37px;
+  border: 0;
+  background: grey;
+  font-weight: bold;
+  cursor: pointer;
+}
+.nav-links .btn{
+  float: right;
+}
+.banner-title{
+  margin: -7 43px;
+  color:#fff;
+}
+.banner-title h1{
+  font-size: 34px;
+  margin-bottom: -5px;
+}
+.banner-title h1 span{
+  color: grey;
+}
+.vertical-bar{
+  width: 40.5px;
+  height: 100%;
+  background: black;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+.search-icon{
+  height: 50%;
+  width: 50px;
+  margin-left: -17.5px;
+  margin-top: -10px;
+}
+.search-icon .fa{
+  margin: 40 23px;
+  display: block;
+  color: grey;
+  font-size: 30px;
+  cursor: pointer;
+}
+.social-icons{
+  height: 34%;
+  width: 100%;
+  background: grey;
+  text-align: center;
+  padding-top: 27%;
+  bottom: 0;
+  position: absolute;
+}
+.social-icons .fa{
+  margin: 10px;
+  margin-left: 8.5px;
+  display: block;
+  padding: 4px;
+  color: black;
+  border: 1px solid black;
+  border-left: 20px;
+  border-right: 20px;
+  border-radius: 30%;
+  cursor: pointer;
+
+
+}
